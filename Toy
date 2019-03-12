@@ -1,0 +1,11 @@
+class Toy {
+    private String toyname;
+
+    Toy(String toyname) {
+        this.toyname = toyname;
+    }
+
+    void print() {
+        System.out.println(""+toyname);
+    }
+}
