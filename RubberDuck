@@ -1,0 +1,6 @@
+class RubberDuck extends Toy {
+        RubberDuck(){
+            super("RubberDuck");
+        }
+        
+       }
