@@ -1,0 +1,14 @@
+public class ToyFactory {
+     public Toy getToy(String toyname) {
+        switch (toyname) {
+        case "RubberDuck":
+            return new RubberDuck();
+        case "TeddyBear":
+            return new TeddyBear();
+        case "PlasticCar":
+            return new PlasticCar();
+         default:
+            throw new IllegalArgumentException();
+          }
+    }
+}           
