@@ -1,0 +1,7 @@
+class TeddyBear extends Toy {
+    TeddyBear(){
+        super("TeddyBear");
+    }
+       
+       
+   }
