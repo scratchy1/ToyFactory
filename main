@@ -1,0 +1,11 @@
+public class MainToys {
+
+    public static void main(String[] args) throws IllegalArgumentException{
+        
+       ToyFactory factory = new ToyFactory();
+        Toy toy = factory.getToy("RubberDuck");
+        toy.print();
+        Toy toy1=factory.getToy("Puppe");
+        toy.print();
+    }
+}
