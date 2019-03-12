@@ -1,0 +1,6 @@
+class PlasticCar extends Toy {
+    PlasticCar(){
+        super("PlasticCar");
+    }
+       
+   }
